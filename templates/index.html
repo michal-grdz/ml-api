@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uploading testing data in a CSV file</title>
+</head>
+<body>
+    <form method = "POST" enctype="multipart/form-data" action = "/">
+        <input type="file" name="file" accept=".csv">
+        <input type = "submit" value="Upload">
+    </form>
+    <p style="color:blue;">Choose csv file with the testing data</p>
+  <form action="/result" target="_blank">
+        <input type="submit" value="Calculate model predictions"/>
+    </form>
+</body>
+</html>
